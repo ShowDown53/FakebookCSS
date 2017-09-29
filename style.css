@@ -1,0 +1,149 @@
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+    background-color: #eaebef;
+}
+
+input {
+  font-size: 100%;
+  padding: 0px 5px;
+  width: 400px;
+  height: 32px;
+  border: 0px;
+  border-radius: 2px;
+}
+
+a {
+  color: #3b5998;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#header {
+  background-color: #3b5998;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+
+#maincontent {
+  width: 851px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2000px; /* Prekomerna višina za namen demonstracije fixed headerja */
+  z-index: 1;
+}
+#cover {
+  box-sizing: border-box;
+  width: 851px;
+  height: 363px;
+}
+
+#logoSearch {
+    width: 830px;
+    position: relative;
+    margin: auto;
+}
+
+#content {
+
+}
+
+#aboutLevo {
+  box-sizing: border-box;
+  line-height: 150%;
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 20px;
+  width: 40%;
+  background: white;
+  border: 1px #dfdee3 solid;
+  border-radius: 5px;
+  float: left;
+}
+
+#postDesno {
+  font-family: Helvetica;
+  margin-left: 43%;
+  background: white;
+  border: 1px #dfdee3 solid;
+  border-radius: 5px;
+}
+
+#dateTime {
+  color: #525252;
+  font-size: 12px;
+  padding: 5px;
+}
+
+#mucSlika {
+  border: 1px #dfdee3 solid;
+  width: 100%;
+}
+
+.slikaPost {
+  border: 1px white solid;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.icon {
+  position: relative;
+  top: 24px;
+}
+
+.slika {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilna {
+  display: block;
+  position: relative;
+  top: -150px;
+  left: 30px;
+  width: 180px;
+  height: 180px;
+  border: 4px white solid;
+}
+
+.searchField {
+  position: relative;
+  left: 50px;
+  top: -12px;
+}
+
+.smallPost {
+  float: left;
+}
+
+.namePost {
+  font-size: 16px;
+  color: #3b5998;
+  padding: 20px;
+}
+
+.name {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  font-family: tahoma,sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px #969696;
+  left: 250px;
+  top: -240px;
+}
+
+.muc {
+ width: 95%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: auto; /* to nima efekta? */
+ margin-bottom: 6px; /* zato uporabljam ta property */
+}
